@@ -1,4 +1,4 @@
-require "test_helper"
+﻿require "test_helper"
 
 class ListsControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
@@ -21,3 +21,6 @@ class ListsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 end
+
+
+

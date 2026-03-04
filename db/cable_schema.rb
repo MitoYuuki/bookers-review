@@ -1,4 +1,4 @@
-ActiveRecord::Schema[7.1].define(version: 1) do
+﻿ActiveRecord::Schema[7.1].define(version: 1) do
   create_table "solid_cable_messages", force: :cascade do |t|
     t.binary "channel", limit: 1024, null: false
     t.binary "payload", limit: 536870912, null: false
@@ -9,3 +9,6 @@ ActiveRecord::Schema[7.1].define(version: 1) do
     t.index ["created_at"], name: "index_solid_cable_messages_on_created_at"
   end
 end
+
+
+

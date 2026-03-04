@@ -1,4 +1,4 @@
-require_relative "boot"
+﻿require_relative "boot"
 
 require "rails/all"
 
@@ -10,6 +10,7 @@ module Bookers
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.1
+    config.encoding = "utf-8"
 
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
@@ -25,3 +26,6 @@ module Bookers
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
+
+
+

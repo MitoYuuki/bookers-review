@@ -1,4 +1,4 @@
-require "test_helper"
+﻿require "test_helper"
 
 class HomesControllerTest < ActionDispatch::IntegrationTest
   test "should get top" do
@@ -6,3 +6,6 @@ class HomesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 end
+
+
+

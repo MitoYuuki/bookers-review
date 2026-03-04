@@ -1,4 +1,4 @@
-require "test_helper"
+﻿require "test_helper"
 
 class BooksControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
@@ -6,3 +6,6 @@ class BooksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 end
+
+
+

@@ -1,4 +1,4 @@
-class CreateBooks < ActiveRecord::Migration[8.1]
+﻿class CreateBooks < ActiveRecord::Migration[8.1]
   def change
     create_table :books do |t|
       t.string :title
@@ -8,3 +8,6 @@ class CreateBooks < ActiveRecord::Migration[8.1]
     end
   end
 end
+
+
+

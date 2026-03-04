@@ -1,10 +1,11 @@
-Rails.application.routes.draw do
-  # トップページ
+﻿Rails.application.routes.draw do
+  # 繝医ャ繝励・繝ｼ繧ｸ
   root "homes#top"
 
-  # Books の CRUD 用
+  # Books 縺ｮ CRUD 逕ｨ
   resources :books
 
-  # Rails のヘルスチェック（自動生成）
-  get "up" => "rails/health#show", as: :rails_health_check
+  # Rails 縺ｮ繝倥Ν繧ｹ繝√ぉ繝・け・郁・蜍慕函謌撰ｼ・  get "up" => "rails/health#show", as: :rails_health_check
 end
+
+

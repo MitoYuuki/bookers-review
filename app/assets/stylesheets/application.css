@@ -79,3 +79,15 @@ input[type="submit"] {
   display: block;
   margin-bottom: 12px;
 }
+
+.book-info {
+  margin: 33px;
+}
+
+td{
+  padding: 5px;
+}
+
+h1{
+  margin-bottom: 15px;
+}
